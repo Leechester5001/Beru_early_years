@@ -210,7 +210,7 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -218,7 +218,7 @@
       disableOnInteraction: false
     },
     pagination: {
-      el: '.Swiper-pagination',
+      el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
     }
@@ -227,7 +227,7 @@
   /**
    * Testimonials slider
    */
-  new Swiper('.testimonials-slider', {
+  new swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -236,7 +236,7 @@
     },
     slidesPerView: 'auto',
     pagination: {
-      el: '.Swiper-pagination',
+      el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
     },
