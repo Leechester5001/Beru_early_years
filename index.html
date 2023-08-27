@@ -57,14 +57,16 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel="stylesheet" id="Swiper" href="js/swiper-bundle.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" id="swiper" href="css/boxicons.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" id="swiper" href="css/style.css" type="text/css" rel="stylesheet">
+
+<link rel="stylesheet" id="swiper" href="css/swiper-bundle.min.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" id="sb_instagram_styles-css" href="css/css-sb-instagram-2-2.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="contact-form-7-css" href="css/css-styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="cf7cf-style-css" href="css/cf7-conditional-fields-style.css" type="text/css" media="all">
 <link rel="stylesheet" id="rs-plugin-settings-css" href="css/css-settings.css" type="text/css" media="all">
 <style id="rs-plugin-settings-inline-css" type="text/css">
 </style>
-<link rel="stylesheet" id="peggi-select-default-style-css" href="css/peggi-style.css" type="text/css" media="all">
 <link rel="stylesheet" id="peggi-select-modules-css" href="css/css-modules.min.css" type="text/css" media="all">
 <style id="peggi-select-modules-inline-css" type="text/css">
 .page-id-194 .qodef-content .qodef-content-inner > .qodef-container > .qodef-container-inner, .page-id-194 .qodef-content .qodef-content-inner > .qodef-full-width > .qodef-full-width-inner { padding: 0 80px ;}@media only screen and (max-width: 1024px) {.page-id-194 .qodef-content .qodef-content-inner > .qodef-container > .qodef-container-inner, .page-id-194 .qodef-content .qodef-content-inner > .qodef-full-width > .qodef-full-width-inner { padding: 0 10px;}}.page-id-194 .qodef-content .qodef-content-inner > .qodef-container > .qodef-container-inner, .page-id-194 .qodef-content .qodef-content-inner > .qodef-full-width > .qodef-full-width-inner { padding: 0 80px ;}@media only screen and (max-width: 1024px) {.page-id-194 .qodef-content .qodef-content-inner > .qodef-container > .qodef-container-inner, .page-id-194 .qodef-content .qodef-content-inner > .qodef-full-width > .qodef-full-width-inner { padding: 0 10px;}}.page-id-194 .qodef-page-header .qodef-vertical-align-containers, .page-id-194 .qodef-top-bar .qodef-vertical-align-containers { padding-left: 80px;padding-right: 80px;}.qodef-smooth-transition-loader { background-color: #ffffff;}
@@ -419,7 +421,7 @@ Our Philosophy </h3>
 
 </div>
 <!-- <script>
-new Swiper('.testimonials-slider', {
+new swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -428,7 +430,7 @@ new Swiper('.testimonials-slider', {
     },
     slidesPerView: 'auto',
     pagination: {
-      el: '.Swiper-pagination',
+      el: '.swiper-pagination',
       type: 'bullets',
       clickable: true
     },
@@ -452,10 +454,10 @@ new Swiper('.testimonials-slider', {
 		<!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p> -->
 	  </div>
 
-	  <div class="testimonials-slider Swiper" data-aos="fade-up" data-aos-delay="100">
-		<div class="Swiper-wrapper">
+	  <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+		<div class="swiper-wrapper">
 
-		  <div class="Swiper-slide">
+		  <div class="swiper-slide">
 			<div class="testimonial-item">
 			  <p>
 				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -468,7 +470,7 @@ new Swiper('.testimonials-slider', {
 			</div>
 		  </div><!-- End testimonial item -->
 
-		  <div class="Swiper-slide">
+		  <div class="swiper-slide">
 			<div class="testimonial-item">
 			  <p>
 				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -481,7 +483,7 @@ new Swiper('.testimonials-slider', {
 			</div>
 		  </div><!-- End testimonial item -->
 
-		  <div class="Swiper-slide">
+		  <div class="swiper-slide">
 			<div class="testimonial-item">
 			  <p>
 				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -494,7 +496,7 @@ new Swiper('.testimonials-slider', {
 			</div>
 		  </div><!-- End testimonial item -->
 
-		  <div class="Swiper-slide">
+		  <div class="swiper-slide">
 			<div class="testimonial-item">
 			  <p>
 				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -503,11 +505,11 @@ new Swiper('.testimonials-slider', {
 			  </p>
 			  <img src="images/testimonials/Rishaan's mom.jpg" class="testimonial-img" alt="">
 			  <h3>Rishaan's Parents</h3>
-			  
+			  <br>
 			</div>
 		  </div><!-- End testimonial item -->
 
-		  <div class="Swiper-slide">
+		  <div class="swiper-slide">
 			<div class="testimonial-item">
 			  <p>
 				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -516,7 +518,7 @@ new Swiper('.testimonials-slider', {
 			  </p>
 			  <img src="images/testimonials/Riyaansh's parents.jpg" class="testimonial-img" alt="">
 			  <h3>Riyaansh's Parents</h3>
-			  
+			  <br>
 			</div>
 		  </div><!-- End testimonial item -->
 
@@ -687,6 +689,9 @@ var sbiajaxurl = " /wp-admin/admin-ajax.php";
 /* ]]> */
 </script>
 <script type="text/javascript" src="js/glightbox.min.js"></script>
+<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="js/waypoints-waypoints.min.js"></script>
+
 <script type="text/javascript" src="js/jquery-jquery.js"></script>
 <script type="text/javascript" src="js/jquery-jquery-migrate.min.js"></script>
 <script type="text/javascript" src="js/js-jquery.themepunch.tools.min.js"></script>
@@ -729,7 +734,7 @@ var sbiajaxurl = " /wp-admin/admin-ajax.php";
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/plugins-jquery.multiscroll.min.js"></script>
 <script type="text/javascript" src="js/main1.js"></script>
-<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+
 <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyBdp_1ObIES0MTpGi9ifckbkJHN1WC7U5o"></script>
 <script type="text/javascript">
 /* <![CDATA[ */
