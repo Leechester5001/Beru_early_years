@@ -440,7 +440,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #fefaf7;
 }
 
 .section-title {
@@ -473,7 +473,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #3498db;
+  background: #db7f34;
   bottom: 0;
   left: calc(50% - 20px);
 }
